@@ -14,3 +14,6 @@ Installation:
 - npm install
 - npm start
 
+Note:
+
+- Open dev tools console and watch for any errors
