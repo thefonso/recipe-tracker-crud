@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
+
+.App {
+  padding: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+header {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* typography */
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+  font-size: 64px;
+}
+
+html {
+  font-family: 'helvetica neue', sans-serif;
+}
+
+thead th, tfoot th {
+  font-family: 'Rock Salt';
+}
+
+/* input and text area form size */
+input {
+  width: 90%;
+}
+
+textarea {
+  width: 80%;
+}
+
+/* table */
+th {
+  letter-spacing: 2px;
+  padding: 10px;
+  width: 10%;
+}
+
+/* wider space for ingredients and prep */
+th:nth-child(4), th:nth-child(5){
+  width: 30%;
+}
+
+td {
+  letter-spacing: 1px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+}
+
+tr td {
+  width: 10%;
+}
+
+tr td:nth-child(4), tr td:nth-child(5){
+  width: 30%;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  overflow:hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.content_td p {
+  max-width: 100%;
+  max-height: 100px;
+  overflow-y: auto;
+  text-overflow: ellipsis;
+}
+
+/* image resizing */
+img {
+  object-fit: scale-down;
+  width: 100%;
+  height: 100%;
+}
+
+/* Zebra striping*/
+tbody tr:nth-child(odd) {
+  background-color: #fff0c7;
+}
