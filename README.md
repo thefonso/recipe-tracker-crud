@@ -8,7 +8,7 @@ Add or delete recipes, photos, and keep track of how to make as well as ingredie
 
 Created using React
 
-Instalation:
+Installation:
 
 - clone this repo 
 - npm install

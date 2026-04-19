@@ -19,7 +19,7 @@ function RecipeCreate({submitNewRecipe}) {
       ...formData,
       [target.name]: target.value
     })
-    console.log(formData)
+    console.log("formData: ",formData)
   }
 
   //submit button trigger
